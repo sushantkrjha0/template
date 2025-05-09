@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .card{
+            padding: 30px;
+            margin: 0 400px;
+            background-color: #0b6fe9dc;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 250px;
+            height: auto;
+        }
+        .content {
+            padding: 30px;
+        }
+        h1 {
+            color: #0B6FE9;
+            margin-top: 0;
+            font-size:17px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0B6FE9;
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin: 15px 0;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0060BF;
+        }
+        .highlight {
+            background-color: #f0f7ff;
+            border-left: 4px solid #0B6FE9;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #f0f7ff;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        .social-icons {
+            margin: 15px 0;
+        }
+        .social-icon {
+            display: inline-block;
+            margin: 0 8px;
+            width: 32px;
+            height: 32px;
+            background-color: #0066cc;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .options {
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0;
+            flex-wrap: wrap;
+        }
+        .option-box {
+            background-color: #f0f7ff;
+            border-radius: 8px;
+            padding: 15px;
+            width: 45%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .option-title {
+            font-weight: bold;
+            color: #0B6FE9;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <div class="header">
+                <img src="https://ecombuddha-application.s3.ap-south-1.amazonaws.com/buddha.png" alt="EcomBuddha Logo" class="logo">
+            </div>
+            <div class="content">
+                <h1>Hi {{name}},</h1>
+                
+                <p>Great news! Your request for {{credits}} credits has been approved and added to your account.</p>
+                
+                <div class="highlight">
+                    <p>Your EcomBuddha credits are now ready to use!</p>
+                </div>
+                
+                <p>Ready to create compelling product listings? You can:</p>
+                
+                <p>Generate a <strong style="color: #0B6FE9;">Single Listing</strong> for detailed focus on one product</p>
+                
+                <p>Use <strong style="color: #0B6FE9;">Bulk Listing</strong> to efficiently create multiple listings at once</p>
+                
+                <center><a href="https://ecombuddha.ai/dashboard" class="btn">Go To Dashboard →</a></center>
+                
+                <p>We're excited to see the amazing content you'll create with EcomBuddha. If you need any help getting started, our support team is just a click away.</p>
+                
+                <p>Thank you for choosing EcomBuddha to power your Amazon listings!</p>
+                
+                <p>Best regards,<br>The EcomBuddha Team</p>
+            </div>
+            <div class="footer">
+                <p>© 2025 EcomBuddha. All rights reserved.</p>
+                
+                <p>If you have any questions, please contact our <a href="mailto:info@ecombuddha.in" style="color: #0066cc; text-decoration: none;">support team</a>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
